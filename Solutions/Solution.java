@@ -1,4 +1,4 @@
-public class UnivalSubtrees {
+public class Solution {
     public class TreeNode {
         int val;
         TreeNode left;
@@ -9,11 +9,11 @@ public class UnivalSubtrees {
 
     }
     public static void main(String[] args) {
-        UnivalSubtrees univalSubtrees = new UnivalSubtrees();
-        TreeNode root = univalSubtrees.new TreeNode(2);
-        root.left = univalSubtrees.new TreeNode(2);
-        root.right = univalSubtrees.new TreeNode(2);
-        System.out.println(univalSubtrees.countUnivalSubtrees(root));
+        Solution solution = new Solution();
+        TreeNode root = solution.new TreeNode(2);
+        root.left = solution.new TreeNode(2);
+        root.right = solution.new TreeNode(2);
+        System.out.println(solution.countUnivalSubtrees(root));
     }
 
     public boolean isUnivalTree(TreeNode root) {
